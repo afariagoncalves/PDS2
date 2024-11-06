@@ -1,0 +1,1 @@
+Repositório feito para armazenar as minhas resoluções dos exercícios e trabalhos práticos da disciplina Programação e Desenvolvimento de Software 2 do segundo periodo do curso de Sistemas de Informação na UFMG.

@@ -26,4 +26,15 @@ void List::display() {
 
 // Você deverá implementar apenas esse método
 void List::inverte() {
+    Node* anterior = nullptr;
+    Node* atual = head;
+    Node* prox = nullptr;
+    while (atual != nullptr){
+        prox = atual->next;
+        atual->next = anterior;
+        anterior = atual;
+        atual = prox;
+    }
+    head = anterior;
 }
+
